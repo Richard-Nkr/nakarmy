@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DepistageController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Laboratoires d'analyses médicales VIHTEST</h1>
+    <p>Retrouve tous les laboratoires près de chez toi qui participe à l'opération VIHTEST, le dépistage en laboratoire sans ordonnance.</p>
+    <iframe src="https://opendata.paris.fr/explore/embed/dataset/laboratoires-danalyses-medicales/map/?disjunctive.code_postal&basemap=jawg.dark&location=10,48.98081,2.57698&static=false&datasetcard=false&scrollWheelZoom=false" width="800" height="600" frameborder="0"></iframe>
+</div>
+{% endblock %}
